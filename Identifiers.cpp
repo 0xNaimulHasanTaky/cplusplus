@@ -1,5 +1,4 @@
-// A C++ identifier is a name used to identify a variable, function, class, module,
-// or any other user-defined item.
+// A C++ identifier is a name used to identify a variable, function, class, module, or any other user-defined item.
 // An identifier starts with a letter A to Z or a to z or an underscore (_)
 // followed by zero or more letters, underscores, and digits (0 to 9).
 
