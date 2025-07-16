@@ -3,3 +3,5 @@
 
 # Ignore compiled binaries
 a.out
+# Ignore status
+Status.txt
