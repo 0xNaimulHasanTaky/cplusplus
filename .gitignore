@@ -4,5 +4,5 @@
 # Ignore compiled binaries
 a.out
 
-# Ignore status
+# Ignore status file
 Status.txt
