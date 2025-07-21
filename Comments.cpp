@@ -1,0 +1,54 @@
+// Multi-line Comments
+// Multi-line comments start with /* and end with */.
+// Any text in between these symbols is treated as a comment only.
+// The following syntax shows how to use a multi-line comment in C++:
+
+/* This is a comment */
+
+/* 
+  C++ comments can also
+  span multiple lines
+*/
+
+// Comments within Statements
+// We can also comment-out specific statements within a code block inside a C++ program.
+// This is done using both types of comments.
+
+// Header file inclusion section:
+// This is the section where we include all required header files whose functions we are going to use in the program.
+#include <iostream>
+
+// Namespace section: This is the section where we use the namespace.
+// The line using namespace std; tells the compiler to use the std namespace.
+using namespace std;
+
+// The following example explains the usage of multi-line comments within statements −
+
+int main() {
+  cout << "This line" /*what is this*/ << " contains a comment" << endl;
+  return 0;
+}
+
+// The following example explains the usage of single-line comments within statements −
+
+int main() {
+  cout << "This line"  // what is this
+       << " contains a comment" << endl;
+  return 0;
+}
+
+// Nesting Comments
+// Within a /* and */ comment, // characters have no special meaning.
+// Within a // comment, /* and */ have no special meaning.
+// Thus, we can "nest" one kind of comment within the other kind.
+// The following example explains the usage of comments within comments using nesting −
+
+int main() {
+/* Comment out printing of Hello World:
+
+  cout << "Hello World"; // prints Hello World
+
+*/
+  cout << "New, Hello World!";
+  return 0;
+}
