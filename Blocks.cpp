@@ -2,6 +2,6 @@
 // For example −
 
 // {
-//    cout << "Hello World"; // prints Hello World
+//    std::cout << "Hello World"; // prints Hello World
 //    return 0;
 // }
