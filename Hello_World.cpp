@@ -9,14 +9,17 @@
 // Namespaces are used to differentiate code blocks with the same method names. In this program,
 // the using namespace std; is used to set the namespace as standard for users to apply all standard methods in programs.
 // The line using namespace std; tells the compiler to use the std namespace.
-using namespace std;
+// Omitting_Namespace
+// using namespace std;
 
 // The main() Function (int main(){...})
 // The main() function is the default starting point of any C++ program. It is compulsory for any C++ program to have a main function.
 // The program logics are written inside the main program. The main function body is enclosed inside parenthesis ({}).
 int main() {
-    // Printing Statement (cout), The print/output statement is cout followed by "<<" operator. 
-    cout << "Hello World"; // prints Hello World
+    // Printing Statement (cout), The print/output statement is cout followed by "<<" operator.
+    // Omitting_Namespace
+    // cout << "Hello World"; // prints Hello World
+    std::cout << "Hello World"; // prints Hello World
 
     // return 0; terminates main() function and causes it to return the value 0 to the calling process.
     // In C++11 and later standards, [basic.start.main]:
