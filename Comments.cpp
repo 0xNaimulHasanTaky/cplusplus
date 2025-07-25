@@ -14,26 +14,21 @@
 // We can also comment-out specific statements within a code block inside a C++ program.
 // This is done using both types of comments.
 
-// Header file inclusion section:
-// This is the section where we include all required header files whose functions we are going to use in the program.
-#include <iostream>
 
-// Namespace section: This is the section where we use the namespace.
-// The line using namespace std; tells the compiler to use the std namespace.
-using namespace std;
+#include <iostream>
 
 // The following example explains the usage of multi-line comments within statements −
 
 int main() {
-  cout << "This line" /*what is this*/ << " contains a comment" << endl;
+  std::cout << "This line" /*what is this*/ << " contains a comment" << std::endl;
   return 0;
 }
 
 // The following example explains the usage of single-line comments within statements −
 
 int main() {
-  cout << "This line"  // what is this
-       << " contains a comment" << endl;
+  std::cout << "This line"  // what is this
+       << " contains a comment" << std::endl;
   return 0;
 }
 
@@ -49,6 +44,6 @@ int main() {
   cout << "Hello World"; // prints Hello World
 
 */
-  cout << "New, Hello World!";
+  std::cout << "New, Hello World!";
   return 0;
 }

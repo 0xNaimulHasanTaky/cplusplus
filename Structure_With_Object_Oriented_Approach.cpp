@@ -1,13 +1,7 @@
 // C++ also supports the object-oriented programming approach along with the procedural programming approach.
 // This example demonstrates the C++ program based on an object-oriented approach.
 
-// Header file inclusion section:
-// This is the section where we include all required header files whose functions we are going to use in the program.
 #include <iostream>
-
-// Namespace section: This is the section where we use the namespace.
-// The line using namespace std; tells the compiler to use the std namespace.
-using namespace std;
 
 
 // Class Declaration
@@ -36,7 +30,7 @@ class Numbers {
   double addition() { return a + b; }
 
   // Function to display values
-  void display() { cout << "a: " << a << ", b: " << b << endl; }
+  void display() { std::cout << "a: " << a << ", b: " << b << std::endl; }
 };
 
 int main() {
@@ -51,7 +45,7 @@ int main() {
 
   // Find the addition
   int sum = num.addition();
-  cout << "Sum of numbers: " << sum << endl;
+  std::cout << "Sum of numbers: " << sum << std::endl;
 
   return 0;
 }
@@ -73,7 +67,7 @@ int main() {
 //   double addition() { return a + b; }
 
 //   // Function to display values
-//   void display() { cout << "a: " << a << ", b: " << b << endl; }
+//   void display() { std::cout << "a: " << a << ", b: " << b << std::endl; }
 // };
 
 // The following are the data members which are defined under the private access modifier i.e.,
