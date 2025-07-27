@@ -1,11 +1,12 @@
-// A C++ identifier is a name used to identify a variable, function, class, module, or any other user-defined item.
-// An identifier starts with a letter A to Z or a to z or an underscore (_)
-// followed by zero or more letters, underscores, and digits (0 to 9).
-
+// Identifiers
+// Identifiers are names given to different user-defined entries such as variables{Variables.cpp}, structures, and functions, classes, objects, arrays, modules etc.
+// Also, identifier names should have to be unique because these entities are used in the execution of the program.
+// Identifier naming conventions:
+// Only alphabetic characters starting with a letter (A-Z, a-z), digits (0-9), and underscores (_) are permitted.
 // C++ does not allow punctuation characters such as @, $, and % within identifiers.
-// C++ is a case-sensitive programming language. Thus, Manpower and manpower are two different identifiers in C++.
-// Here are some examples of acceptable identifiers −
+// The first letter must be an alphabet or underscore (_) not a number. Identifiers are case sensitive.
+// Thus, Manpower and manpower are two different identifiers
+// Reserved keywords{Keywords.cpp} can not be used as an identifier's name.
+// example:
 
-
-// mohd       zara    abc   move_name  a_123
-// myname50   _temp   j     a23b9      retVal
+// mohd, zara, abc, move_name, a_123 myname50, _temp, j, a23b9, retVal

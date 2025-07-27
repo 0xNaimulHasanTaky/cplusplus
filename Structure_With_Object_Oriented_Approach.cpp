@@ -12,7 +12,7 @@
 // C++ supports three types of access modifiers: private, public, and protected.
 // Accessibilities of the data members and member functions are defined by the access modifiers.
 // Data members and member functions:
-// The variables used in the class declaration are known as data members, and the member functions are those functions that work on the data members.
+// The variables{Variables.cpp} used in the class declaration are known as data members, and the member functions are those functions that work on the data members.
 
 class Numbers {
  private:
