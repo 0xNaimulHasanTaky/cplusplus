@@ -7,6 +7,5 @@
 // The first letter must be an alphabet or underscore (_) not a number. Identifiers are case sensitive.
 // Thus, Manpower and manpower are two different identifiers
 // Reserved keywords{Keywords.cpp} can not be used as an identifier's name.
-// example:
-
+// Examples:
 // mohd, zara, abc, move_name, a_123 myname50, _temp, j, a23b9, retVal
