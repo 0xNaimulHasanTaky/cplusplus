@@ -1,4 +1,3 @@
-// Variables
 // A variable is a meaningful name of data storage location in computer memory.
 // When using a variable you refer to memory address of computer.
 // Syntax to declare a variable:

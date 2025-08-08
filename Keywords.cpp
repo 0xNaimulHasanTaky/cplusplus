@@ -7,6 +7,7 @@
 // Data types: int, char, double, float, bool, void, long, short
 // Storage classes: static, extern, mutable, register, volatile
 // Object-oriented programming: class, struct, public, private, protected, virtual, this, friend
+// Boolean values: true, false
 // Other: namespace, using, typedef, const, sizeof, typeid, template, new, delete
-// More: asm, auto, enum, operator, throw, explicit, true, export, try, catch, false, reinterpret_cast, typename, for, union,
-//       unsigned, const_cast, signed, default, inline, static_cast, do, wchar_t, while, dynamic_cast
+// More: asm, auto, enum, operator, throw, explicit, export, try, catch, reinterpret_cast, typename, for, union, while, dynamic_cast,
+//       unsigned, const_cast, signed, default, inline, static_cast, do, wchar_t

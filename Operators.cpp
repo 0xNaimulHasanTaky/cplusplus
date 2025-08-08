@@ -1,28 +1,17 @@
 // C++ operator is a symbol that is used to perform mathematical or logical manipulations.
 
-// Arithmetic Operators
-// Increment and Decrement Operators
-// Relational Operators
-// Logical Operators
-// Bitwise Operators
-// Assignment Operators
-// Misc Operators
-
-// Arithmetic Operators
-// Operator	Description
+// Arithmetic Operators:
 // +	Addition
 // -	Subtraction
 // *	Multiplication
 // /	Division
 // %	Modulus
 
-// Increment and Decrement Operators
-// Operator	Description
+// Increment and Decrement Operators:
 // ++	Increment
 // --	
 
-// Relational Operators
-// Operator	Description
+// Relational Operators:
 // ==	Is equal to
 // !=	Is not equal to
 // >	Greater than
@@ -30,14 +19,12 @@
 // >=	Greater than or equal to
 // <=	Less than or equal to
 
-// Logical Operators
-// Operator	Description
+// Logical Operators:
 // &&	And operator. Performs logical conjunction of two expressions.(if both expressions evaluate to True, result is True. If either expression evaluates to False, the result is False)
 // ||	Or operator. Performs a logical disjunction on two expressions.(if either or both expressions evaluate to True, the result is True)
 // !	Not operator. Performs logical negation on an expression.
 
-// Bitwise Operators
-// Operator	Description
+// Bitwise Operators:
 // <<	Binary Left Shift Operator
 // !=	Is not equal to
 // >>	Binary Right Shift Operator
@@ -46,8 +33,7 @@
 // ^	Binary XOR Operator
 // |	Binary OR Operator
 
-// Assignment Operators
-// Operator	Description
+// Assignment Operators:
 // =	Assign
 // +=	Increments, then assign
 // -=	Decrements, then assign
@@ -60,8 +46,7 @@
 // ^=	Bitwise exclusive OR and assigns
 // |=	Bitwise inclusive OR and assigns
 
-// Misc Operators
-// Operator	Description
+// Misc Operators:
 // ,	Comma operator
 // sizeOf()	Returns the size of a memory location.
 // &	Returns the address of a memory location.

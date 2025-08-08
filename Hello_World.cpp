@@ -14,7 +14,7 @@
 // The main() function is the default starting point of any C++ program. It is compulsory for any C++ program to have a main function.
 // The program logics are written inside the main program. The main function body is enclosed inside parenthesis ({}).
 int main() {
-    std::cout << "Hello World"; // prints Hello World
+    std::cout << "Hello World";
 
     // return 0; terminates main() function and causes it to return the value 0 to the calling process.
     // In C++11 and later standards, [basic.start.main]:

@@ -1,4 +1,3 @@
-// Multi-line Comments
 // Multi-line comments start with /* and end with */.
 // Any text in between these symbols is treated as a comment only.
 // The following syntax shows how to use a multi-line comment in C++:
@@ -17,14 +16,14 @@
 
 #include <iostream>
 
-// The following example explains the usage of multi-line comments within statements −
+// The following example explains the usage of multi-line comments within statements:
 
 int main() {
   std::cout << "This line" /*what is this*/ << " contains a comment" << std::endl;
   return 0;
 }
 
-// The following example explains the usage of single-line comments within statements −
+// The following example explains the usage of single-line comments within statements:
 
 int main() {
   std::cout << "This line"  // what is this
@@ -36,7 +35,7 @@ int main() {
 // Within a /* and */ comment, // characters have no special meaning.
 // Within a // comment, /* and */ have no special meaning.
 // Thus, we can "nest" one kind of comment within the other kind.
-// The following example explains the usage of comments within comments using nesting −
+// The following example explains the usage of comments within comments using nesting:
 
 int main() {
 /* Comment out printing of Hello World:
