@@ -1,0 +1,1 @@
+// Constants{Constants.cpp} refer to fixed values that the program may not alter and they are called literals.

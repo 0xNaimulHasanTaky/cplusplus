@@ -1,0 +1,8 @@
+# Ignore VSCode settings folder
+.vscode/
+
+# Ignore compiled binaries
+a.out
+
+# Ignore status file
+Status.txt
